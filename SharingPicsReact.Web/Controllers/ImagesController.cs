@@ -10,6 +10,9 @@ namespace SharingPicsReact.Web.Controllers
     [ApiController]
     public class ImagesController : ControllerBase
     {
+        //https://github.com/EstherSalamon/hmwk3-20
+        //This is how far I got back then
+
         private readonly string _connection;
 
         public ImagesController(IConfiguration config)
